@@ -1,0 +1,22 @@
+nav {
+    #navbar {
+        position: fixed;
+        top: 0;
+    }
+    
+    a {
+        font-weight: 500;
+        font-size: 1.1rem;
+        &:hover {
+            color: $secondary-color;
+        }
+
+    }
+    
+}
+
+
+.hamburger {
+    font-size: 2rem;
+    color: #fff;
+}

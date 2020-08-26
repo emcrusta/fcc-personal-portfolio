@@ -1,0 +1,19 @@
+.welcome {
+    height: 100vh;
+    padding-top: 40vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    padding-bottom: 1rem;
+    border-bottom: 3px solid $fourth-color;
+
+    &-last {
+        color: $secondary-color;
+    }
+}
+
+
+

@@ -1,0 +1,218 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav #navbar {
+  position: fixed;
+  top: 0;
+}
+
+nav a {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #e27d60;
+}
+
+.hamburger {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.welcome {
+  height: 100vh;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.name {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #41b3a3;
+}
+
+.name-last {
+  color: #e27d60;
+}
+
+.projects {
+  background: #c38d9e;
+  background-size: cover;
+  padding: 5vh 0 5vh 0;
+}
+
+.projects p {
+  margin-bottom: 5vh;
+}
+
+.projects h1 {
+  margin-bottom: 5vh;
+}
+
+.projects .project-tile {
+  padding: .5rem;
+}
+
+.projects .project-tile .projects_btns {
+  opacity: 0;
+}
+
+.projects .project-tile:hover .projects_btns {
+  opacity: 1;
+}
+
+.projects .project-tile:hover .projects_btns a {
+  text-decoration: none;
+}
+
+.projects .project-tile:hover .projects_btns a:hover {
+  color: #e27d60;
+}
+
+.projects_btns {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  font-size: 1.2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contact {
+  padding: 5vh 0 5vh 0;
+  height: 90vh;
+}
+
+.contact-banner {
+  height: 30vh;
+}
+
+.contact h1 {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #41b3a3;
+}
+
+.contact-item {
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.contact .social-icons {
+  padding-top: 5vh;
+  line-height: 2rem;
+}
+
+.contact .social-icons a {
+  padding: 1rem;
+  color: #fff;
+}
+
+.contact .social-icons a:hover {
+  color: #e27d60;
+}
+
+@media screen and (min-width: 768px) {
+  .contact .social-icons {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    background-color: #41b3a3;
+  }
+  .contact-item {
+    padding: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: left;
+    padding-left: 8%;
+  }
+  .contact .social-icons {
+    padding-top: 20vh;
+  }
+}
+
+body {
+  color: #fff;
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  background: #85cdca;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e27d60;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: #c38d9e;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .social-icons a {
+  padding: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+footer .social-icons a:hover {
+  color: #85cdca;
+}
+
+footer .copyright {
+  text-align: right;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+footer .disclaimer {
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  font-size: .8rem;
+  text-align: right;
+}
+/*# sourceMappingURL=main.css.map */

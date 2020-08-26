@@ -1,0 +1,64 @@
+@import 'config', 'menu', 'index', 'projects', 'contact', 'responsive';
+
+body {
+    
+    color: set-text-color($primary-color);
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    background: $primary-color;
+        background-size: cover;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+a {
+    color: set-text-color($primary-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: $secondary-color;
+    }
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 1rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: $third-color;
+    padding: 1rem 0 1rem 0;
+    .social-icons {
+        
+        a {
+            padding: 0.4rem;
+            @include transition-ease;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: right;
+        font-size: 1.2rem;
+        color: set-text-color($primary-color);
+    }
+    .disclaimer {
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+        font-size: .8rem;
+        text-align: right;
+    }
+}
