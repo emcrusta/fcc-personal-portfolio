@@ -9,5 +9,7 @@
   <li>SCSS</li>
   <li>Font Awesome</li>
 </ul>
+
+<p>Github Pages <strong><a href="https://emcrusta.github.io/fcc-personal-portfolio/">live demo site</a></strong>.</p>
  
  
